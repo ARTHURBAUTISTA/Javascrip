@@ -13,7 +13,7 @@ function eventListener() {
 
 function ObtenerArea() {
 
-    console.log('fygjugui');
+    console.log();
 
 
     //se obtiene el valor de los input´s y se convierte su tipo de dato dato a number y se le asigna el valor a la variable correspondiente
@@ -25,6 +25,6 @@ function ObtenerArea() {
 
     let imprimirResultado = document.getElementById('Resultado');
 
-    imprimirResultado.innerHTML = resultado;
+    imprimirResultado.innerHTML = resultado + ('cm2');
 
 }
