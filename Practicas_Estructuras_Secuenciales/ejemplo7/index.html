@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Ejemplo6</title>
+    <title>Ejemplo7</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,13 +16,12 @@
     <div class="container">
         <div class="jumbotron">
 
+            <h1>CONTADOR DE ACIERTOS</h1>
             <div class="row">
                 <div class="col-12">
                     <div class="form-group">
-                        <label for="">INGRESE LA VELOCIDAD</label>
-                        <input type="number" name="" id="velocidad" class="form-control" placeholder="M/S" aria-describedby="helpId">
-
-
+                        <label for=""></label>
+                        <input type="number" name="" id="aciertos" class="form-control" placeholder="Aciertos" aria-describedby="helpId">
                     </div>
                 </div>
             </div>
@@ -30,29 +29,34 @@
             <div class="row">
                 <div class="col-12">
                     <div class="form-group">
-                        <label for="">INGRESE EL TIEMPO</label>
-                        <input type="number" name="" id="tiempo" class="form-control" placeholder="SEGUNDOS" aria-describedby="helpId">
-
+                        <label for=""></label>
+                        <input type="text" name="" id="errores" class="form-control" placeholder="Errores" aria-describedby="helpId">
                     </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-12">
-                    <button type="button" id="btnCalcular" class="btn btn-outline-primary btn-lg btn-block">Calcular.</button>
+                    <div class="form-group">
+                        <label for=""></label>
+                        <input type="text" name="" id="nulos" class="form-control" placeholder="Sin Contestar" aria-describedby="helpId">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" name="" id="btnCalcular" class="btn btn-primary btn-lg btn-block"> Calcular</button>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-12">
                     <div class="alert alert-primary" role="alert">
-                        <strong>La Distancia Recorrida es:
-                            <span id="resultado"></span>
-                        </strong>
+                        <strong>Tótal de puntos: <span id="total"></span></strong>
                     </div>
                 </div>
             </div>
-
 
 
         </div>
