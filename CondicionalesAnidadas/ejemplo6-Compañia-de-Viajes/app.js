@@ -20,8 +20,8 @@ function Calcular() {
 
         costop = 1.5 * km.value;
         costot = costop * 20;
-        imprimir.innerHTML = costop;
-        imprimir2.innerHTML = costot;
+        imprimir.innerHTML = '_$' + costop;
+        imprimir2.innerHTML = '_$' + costot;
         return;
 
     }
@@ -29,8 +29,8 @@ function Calcular() {
 
         costop = 2 * km.value;
         costot = costop * 20;
-        imprimir.innerHTML = costop;
-        imprimir2.innerHTML = costot;
+        imprimir.innerHTML = '$' + costop;
+        imprimir2.innerHTML = '$' + costot;
         return;
 
     }
@@ -39,8 +39,8 @@ function Calcular() {
 
         costop = 2.5 * km.value;
         costot = costop * 20;
-        imprimir.innerHTML = costop;
-        imprimir2.innerHTML = costot;
+        imprimir.innerHTML = '$' + costop;
+        imprimir2.innerHTML = '$' + costot;
         return;
 
     }
@@ -49,8 +49,8 @@ function Calcular() {
 
         costop = 3 * km.value;
         costot = costop * 20;
-        imprimir.innerHTML = costop;
-        imprimir2.innerHTML = costot;
+        imprimir.innerHTML = '$' + costop;
+        imprimir2.innerHTML = '$' + costot;
         return;
 
     }

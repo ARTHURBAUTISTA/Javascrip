@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Ejemplo6</title>
+    <title>Ejemplo 10</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,64 +15,53 @@
     <div class="container">
         <div class="jumbotron">
 
-            <h1></h1>
-
-            <div class="row">
-                <div class="col-4">
-                    <div class="form-group">
-                        <label for="">Costo por Kilometro:</label>
-                        <input type="text" name="" id="tipo" class="form-control" placeholder="" aria-describedby="helpId">
-                        <small>A=$1.5 B=$2 C=$2.5 D=$3</small>
-                    </div>
-                </div>
-
-
-
-                <div class="col-4">
-                    <div class="form-group">
-                        <label for="">KM Recorridos:</label>
-                        <input type="text" name="" id="km" class="form-control" placeholder="" aria-describedby="helpId">
-
-                    </div>
-                </div>
-
-                <div class="col-4">
-                    <div class="form-group">
-                        <label for="">Personas:</label>
-                        <input type="Number" name="" id="personas" class="form-control" placeholder="" aria-describedby="helpId">
-
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="row text-center">
-                <div class="col-12 ">
-                    <button type="button" name="" id="btnComparar" class="btn btn-primary col-4 ">Verificar</button>
-                </div>
-            </div>
-
-            <div class="row  mt-3">
-                <div class="col-12">
-                    <div class="alert alert-primary col-4" role="alert">
-                        <strong>Tótal por persona:<span id="imprimirNumero1"></span></strong>
-                    </div>
-                </div>
-            </div>
-
             <div class="row">
                 <div class="col-12">
-                    <div class="alert alert-primary col-4" role="alert">
-                        <strong>Tótal por viaje:<span id="imprimirNumero2"></span></strong>
+                    <div class="col-4 mt-2">
+                        <div class="form-group">
+                            <label for="">Punto A</label>
+                            <input type="text" name="" id="puntoa" class="form-control" placeholder="KM" aria-describedby="helpId">
+
+                        </div>
+                    </div>
+                    <div class="col-4 mt-2">
+                        <div class="form-group">
+                            <label for="">Punto B</label>
+                            <input type="text" name="" id="puntob" class="form-control" placeholder="KM" aria-describedby="helpId">
+
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div class="row mt-2">
+                <div class="col-12">
+                    <button type="button" name="" id="btnCalcular" class="btn btn-primary btn-lg btn-block">Calcular</button>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="alert alert-primary" role="alert">
+                        <strong>staus : <span id="imprimir1">
+                                            
+                                        </span></strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="alert alert-primary" role="alert">
+                        <strong>El kilometro en el que se encuentran el punto A Y B es : <span id="imprimir">
+                                                
+                                            </span></strong>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
     </div>
-    </div>
-
 
     <!-- Optional JavaScript -->
     <script src="./app.js"></script>
