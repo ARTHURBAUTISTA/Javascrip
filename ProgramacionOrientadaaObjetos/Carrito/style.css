@@ -1,0 +1,19 @@
+.size-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.size-car {
+    display: block;
+    position: absolute;
+}
+
+.size-container * {
+    position: absolute;
+}
+
+.container {
+    margin-right: 25px !important;
+    margin-left: 25px !important;
+}
